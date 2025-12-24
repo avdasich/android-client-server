@@ -6,7 +6,7 @@
 int main() {
     int sock;
     struct sockaddr_in server_addr;
-    char message[] = "Hello from C client";
+    char message[] = "Oh, am i from client.c???";
     char buffer[1024];
 
     sock = socket(AF_INET, SOCK_STREAM, 0);
